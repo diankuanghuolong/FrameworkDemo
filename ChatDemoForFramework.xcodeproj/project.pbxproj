@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6088D651FE3A6BB001E4D6B /* chatdemoForFarmework.png in Resources */ = {isa = PBXBuildFile; fileRef = B6088D641FE3A6BB001E4D6B /* chatdemoForFarmework.png */; };
 		B6BEDE471FE3A20600A64505 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BEDE461FE3A20600A64505 /* AppDelegate.m */; };
 		B6BEDE4A1FE3A20600A64505 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BEDE491FE3A20600A64505 /* ViewController.m */; };
 		B6BEDE4D1FE3A20600A64505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BEDE4B1FE3A20600A64505 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6088D641FE3A6BB001E4D6B /* chatdemoForFarmework.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatdemoForFarmework.png; sourceTree = "<group>"; };
 		B6BEDE421FE3A20600A64505 /* ChatDemoForFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDemoForFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BEDE451FE3A20600A64505 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6BEDE461FE3A20600A64505 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6088D631FE3A6BB001E4D6B /* showImgs */ = {
+			isa = PBXGroup;
+			children = (
+				B6088D641FE3A6BB001E4D6B /* chatdemoForFarmework.png */,
+			);
+			path = showImgs;
+			sourceTree = "<group>";
+		};
 		B6BEDE391FE3A20600A64505 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 				B6BEDE461FE3A20600A64505 /* AppDelegate.m */,
 				B6BEDE481FE3A20600A64505 /* ViewController.h */,
 				B6BEDE491FE3A20600A64505 /* ViewController.m */,
+				B6088D631FE3A6BB001E4D6B /* showImgs */,
 				B6BEDE5D1FE3A2A400A64505 /* Masonry */,
 				B6BEDE5B1FE3A22200A64505 /* ChatFramework.framework */,
 				B6BEDE4B1FE3A20600A64505 /* Main.storyboard */,
@@ -216,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6BEDE521FE3A20600A64505 /* LaunchScreen.storyboard in Resources */,
+				B6088D651FE3A6BB001E4D6B /* chatdemoForFarmework.png in Resources */,
 				B6BEDE4F1FE3A20600A64505 /* Assets.xcassets in Resources */,
 				B6BEDE851FE3A2A500A64505 /* README.md in Resources */,
 				B6BEDE7A1FE3A2A500A64505 /* LICENSE in Resources */,
